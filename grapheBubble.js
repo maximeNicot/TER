@@ -1,5 +1,5 @@
 var graph;
-d3.json("\\TERbubble\\dataBubble.json").then(function(data){
+d3.json("\\TERTEST\\dataBubble.json").then(function(data){
   graph = data;
 
 	var canvas = d3.select("#network"),
@@ -29,6 +29,8 @@ d3.json("\\TERbubble\\dataBubble.json").then(function(data){
 		.links(graph.links);
 
 
+
+
 	function update() {
 		ctx.clearRect(0,0, width, height);
 
@@ -52,6 +54,38 @@ d3.json("\\TERbubble\\dataBubble.json").then(function(data){
 	}
 
 
+
+	/*Tout ce qui est en dessous concerne le drag*/
+    canvas
+      .call(d3.drag()
+          .container(canvas.node())
+          .subject(dragsubject)
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+ 	function dragsubject() {
+   		return simulation.find(d3.event.x, d3.event.y); 
+ 	}
+
+	function dragstarted() {
+	  	if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+	 	 d3.event.subject.fx = d3.event.subject.x;
+	 	 d3.event.subject.fy = d3.event.subject.y;
+	}
+
+	function dragged() {
+	 	d3.event.subject.fx = d3.event.x;
+	  	d3.event.subject.fy = d3.event.y;
+	}
+
+	function dragended() {
+	  	if (!d3.event.active) simulation.alphaTarget(0);
+	  	d3.event.subject.fx = null;
+	  	d3.event.subject.fy = null;
+	}
+
 	update();
 
 });
+
