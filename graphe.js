@@ -1,5 +1,5 @@
 var details;
-d3.json("\\TER\\data.json").then(function(data){
+
   details = data;
 
 

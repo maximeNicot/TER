@@ -1,14 +1,105 @@
+ { 
+  "name": "debut",
+  "children": [{
+      "name": "Metiers",
+      "children": [{
+          "name": "Dev python",
+          "children": [{
+              "name": "Formations",
+              "size": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Data scientist",
+          "children": [{
+              "name": "Formations",
+              "size": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
 
-[{
-		"id": "Metiers",
-		"number": 10
-	},
-	{
-		"id": "Formations",
-		"number": 11
-	},
-	{
-		"id": "Compétences",
-		"number": 9
-	}
-]
+    {
+      "name": "Formations",
+      "children": [{
+          "name": "Univ orleans",
+          "children": [{
+              "name": "Metiers",
+              "size": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Univ paris",
+          "children": [{
+              "name": "Metiers",
+              "size": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Formation paris",
+          "children": [{
+              "name": "Metiers",
+              "size": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Compétences",
+      "children": [{
+          "name": "Coder en python",
+          "children": [{
+              "name": "Metiers",
+              "children": [{
+                "name": "Dev python",
+                "size": 1
+              }]
+            },
+            {
+              "name": "Formations",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Coder en java",
+          "children": [{
+              "name": "Metiers",
+              "children": 1
+            },
+            {
+              "name": "Compétences",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
