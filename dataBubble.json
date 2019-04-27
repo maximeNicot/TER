@@ -1,84 +1,111 @@
 {
 	"nodes": [{
-			"name": "A"
+			"name": "A",
+			"categorie": "2"
 		},
 		{
-			"name": "B"
+			"name": "B",
+			"categorie": "2"
 		},
 		{
-			"name": "C"
+			"name": "C",
+			"categorie": "2"
 		},
 		{
-			"name": "D"
+			"name": "D",
+			"categorie": "2"
 		},
 		{
-			"name": "E"
+			"name": "E",
+			"categorie": "2"
 		},
 		{
-			"name": "F"
+			"name": "F",
+			"categorie": "1"
 		},
 		{
-			"name": "G"
+			"name": "G",
+			"categorie": "1"
 		},
 		{
-			"name": "H"
+			"name": "H",
+			"categorie": "1"
 		},
 		{
-			"name": "I"
+			"name": "I",
+			"categorie": "1"
 		},
 		{
-			"name": "J"
+			"name": "J",
+			"categorie": "1"
 		},
 		{
-			"name": "K"
+			"name": "K",
+			"categorie": "1"
 		},
 		{
-			"name": "L"
+			"name": "L",
+			"categorie": "1"
 		},
 		{
-			"name": "M"
+			"name": "M",
+			"categorie": "1"
 		},
 		{
-			"name": "N"
+			"name": "N",
+			"categorie": "1"
 		},
 		{
-			"name": "O"
+			"name": "O",
+			"categorie": "1"
 		},
 		{
-			"name": "P"
+			"name": "P",
+			"categorie": "1"
 		},
 		{
-			"name": "Q"
+			"name": "Q",
+			"categorie": "1"
 		},
 		{
-			"name": "R"
+			"name": "R",
+			"categorie": "1"
 		},
 		{
-			"name": "S"
+			"name": "S",
+			"categorie": "1"
 		},
 		{
-			"name": "T"
+			"name": "T",
+			"categorie": "1"
 		},
 		{
-			"name": "U"
+			"name": "U",
+			"categorie": "1"
 		},
 		{
-			"name": "V"
+			"name": "V",
+			"categorie": "1"
 		},
 		{
-			"name": "W"
+			"name": "W",
+			"categorie": "1"
 		},
 		{
-			"name": "X"
+			"name": "X",
+			"categorie": "1"
 		},
 		{
-			"name": "Y"
+			"name": "Y",
+			"categorie": "1"
 		},
 		{
-			"name": "Z"
+			"name": "Z",
+			"categorie": "1"
 		},
 		{
-			"name": "AA"
+			"name": "AA",
+			"categorie": "1"
 		}
 
 
